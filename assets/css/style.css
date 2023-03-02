@@ -1,9 +1,11 @@
+/* UNIVERSAL SELECTOR */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* SEMANTIC SELECTORS */
 body {
     background-color: #d9dcd6;
 }
@@ -51,25 +53,6 @@ p {
     font-size: 16px;
 }
 
-.hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
 /* changed from div .content to main */
 main {
     width: 75%;
@@ -87,26 +70,6 @@ aside {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
-}
-
-/* combine .benefit-lead, benefit-brand, and .benefit-cost to .benefits */
-/* This methos uses .benefits instead of aside article */
-.benefits {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/* combine .benefit-lead, -brand, -cost H3's to .benefits h3 */
-.benefits h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/* combine all img to .benefits img */
-.benefits img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
 }
 
 /* replace .search-engine-optimization, .online-reputation-management, & .social-media-marketing
@@ -145,4 +108,45 @@ footer {
 /* changed from .footer to footer */
 footer h2 {
     font-size: 20px;
+}
+
+
+/* CLASS SELECTORS */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* combine .benefit-lead, benefit-brand, and .benefit-cost to .benefits */
+/* This methos uses .benefits instead of aside article */
+.benefits {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* combine .benefit-lead, -brand, -cost H3's to .benefits h3 */
+.benefits h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* combine all img to .benefits img */
+.benefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
 }
