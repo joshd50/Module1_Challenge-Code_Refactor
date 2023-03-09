@@ -12,6 +12,8 @@ N/A
 
 ## Usage
 
+[Link to Site](https://autohome.github.io/Module1_Challenge-Code_Refactor/)
+
 See screenshot of the Horiseon website worked on below.
 
 ![screenshot of horiseon homepage](assets/images/127.0.0.1_5501_index.html.png)
